@@ -11,4 +11,20 @@
   .nav-sub-menu {
     @apply absolute invisible px-4 py-3 transition-all ease-linear shadow-md opacity-0 group-hover:visible min-w-52 top-full group-hover:opacity-100 *:py-1 hover:*:text-primary-1 *:cursor-pointer *:transition-colors;
   }
+
+  .mobile-nav-sub-menu {
+    @apply hidden peer-has-[:checked]:flex flex-col mx-4 gap-6 w-full hover:*:text-primary-1 *:cursor-pointer *:transition-colors;
+  }
+}
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
 }
