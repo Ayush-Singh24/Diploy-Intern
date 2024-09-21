@@ -1,7 +1,10 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
     <>
-      <div className="bg-blue-500">hello world</div>
+      <Navbar />
+      <main></main>
     </>
   );
 }
