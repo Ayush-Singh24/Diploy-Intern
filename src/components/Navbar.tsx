@@ -89,14 +89,10 @@ export default function Navbar() {
           </nav>
           <div className="flex gap-4 font-normal">
             <a>
-              <button className="px-4 py-1 transition-all border border-gray-300 rounded cursor-pointer text-black-1 min-w-20 active:border-gray-500 hover:text-primary-1 active:shadow-md">
-                Login
-              </button>
+              <button className="px-4 py-1 secondary-btn">Login</button>
             </a>
             <a>
-              <button className="px-4 py-1 transition-all border rounded cursor-pointer text-white-1 bg-primary-1 min-w-20 active:border-primary-2 hover:text-white active:text-white active:shadow-md hover:bg-primary-2 active:shadow-orange-1">
-                Sign up
-              </button>
+              <button className="px-4 py-1 primary-btn">Sign up</button>
             </a>
           </div>
         </div>
