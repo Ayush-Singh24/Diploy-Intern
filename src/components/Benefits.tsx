@@ -7,19 +7,19 @@ type Benefit = {
 const benefits: Benefit[] = [
   {
     heading: "Higher Profits",
-    img: "/public/higher-profits.svg",
+    img: "/higher-profits.svg",
     description:
       " We offer some of the lowest prices in the industry because print providers continuously compete to win your business.",
   },
   {
     heading: "Robust Scaling",
-    img: "/public/robust-scaling.svg",
+    img: "/robust-scaling.svg",
     description:
       "Easily handle peak holiday seasons, with our wide network of partners and automatic routing functionality.",
   },
   {
     heading: "Best Selection",
-    img: "/public/best-selection.svg",
+    img: "/best-selection.svg",
     description:
       "With 900+ products and top quality brands, you can choose the best products for your business.",
   },
