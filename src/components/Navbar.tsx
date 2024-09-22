@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   return (
     <>
-      <header className="fixed top-0 left-0 bg-white z-[1000] border-b border-b-white-4 shadow w-full">
+      <header className="fixed top-0 left-0 bg-white-1 bg-white z-[1000] border-b border-b-white-4 shadow w-full">
         <div className="flex h-16 max-w-[1280px] m-auto w-full px-8 items-center justify-between">
           <div className="flex items-center">
             <Menu
