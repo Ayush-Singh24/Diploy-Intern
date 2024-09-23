@@ -9,7 +9,7 @@
 
 @layer components {
   .nav-sub-menu {
-    @apply absolute invisible px-4 py-3 transition-all ease-linear shadow-md opacity-0 group-hover:visible min-w-52 top-full group-hover:opacity-100 *:py-1 hover:*:text-primary-1 *:cursor-pointer *:transition-colors;
+    @apply absolute invisible px-4 py-3 transition-all bg-white-1 ease-linear shadow-md opacity-0 group-hover:visible min-w-52 top-full group-hover:opacity-100 *:py-1 hover:*:text-primary-1 *:cursor-pointer *:transition-colors;
   }
 
   .mobile-nav-sub-menu {
