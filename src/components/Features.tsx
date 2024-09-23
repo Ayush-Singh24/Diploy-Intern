@@ -1,35 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import PlusMarker from "./ui/plusMarker";
-
-type Feature = {
-  primaryTitle: string;
-  secondaryTitle: string;
-  description: string;
-  img: string;
-};
-
-const features: Feature[] = [
-  {
-    primaryTitle: "CREATE",
-    secondaryTitle: "custom products",
-    description:
-      "Easily add your designs to a wide range of products using our free tools",
-    img: "/custom-products.png",
-  },
-  {
-    primaryTitle: "SELL",
-    secondaryTitle: "on your terms",
-    description: "You choose the products, sale price and where to sell",
-    img: "/your-products.png",
-  },
-  {
-    primaryTitle: "WE HANDLE",
-    secondaryTitle: "fulfillment",
-    description:
-      "Once an order is placed, we automatically handle all the printing and delivery logistics",
-    img: "/fullfillment.png",
-  },
-];
+import { features } from "../utils/constants";
 
 export default function Features() {
   return (

@@ -1,4 +1,4 @@
-import { FooterLinksType } from "./Footer";
+import { FooterLinksType } from "../types/types";
 
 interface FooterLinksProps {
   item: FooterLinksType;

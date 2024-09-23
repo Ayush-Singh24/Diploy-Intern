@@ -7,19 +7,7 @@ import {
   Youtube,
 } from "lucide-react";
 import FooterLinks from "./FooterLinks";
-import { footerLinks } from "../utils/constants";
-
-export type FooterLinksType = {
-  heading: string;
-  links: string[];
-};
-
-const aboutSite: string[] = [
-  "Intellectual Property Policy",
-  "Terms of Service",
-  "Privacy Policy",
-  "Security",
-];
+import { aboutSite, footerLinks } from "../utils/constants";
 
 export default function Footer() {
   return (

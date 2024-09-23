@@ -1,4 +1,4 @@
-import { FooterLinksType } from "../components/Footer";
+import { Feature, FooterLinksType } from "../types/types";
 
 export const footerLinks: FooterLinksType[] = [
   {
@@ -80,4 +80,34 @@ export const footerLinks: FooterLinksType[] = [
       "Sitemap",
     ],
   },
+];
+
+export const features: Feature[] = [
+  {
+    primaryTitle: "CREATE",
+    secondaryTitle: "custom products",
+    description:
+      "Easily add your designs to a wide range of products using our free tools",
+    img: "/custom-products.png",
+  },
+  {
+    primaryTitle: "SELL",
+    secondaryTitle: "on your terms",
+    description: "You choose the products, sale price and where to sell",
+    img: "/your-products.png",
+  },
+  {
+    primaryTitle: "WE HANDLE",
+    secondaryTitle: "fulfillment",
+    description:
+      "Once an order is placed, we automatically handle all the printing and delivery logistics",
+    img: "/fullfillment.png",
+  },
+];
+
+export const aboutSite: string[] = [
+  "Intellectual Property Policy",
+  "Terms of Service",
+  "Privacy Policy",
+  "Security",
 ];
