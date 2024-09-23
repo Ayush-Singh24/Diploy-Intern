@@ -17,7 +17,7 @@
   }
 
   .primary-btn {
-    @apply transition-all border rounded cursor-pointer text-white-1 bg-primary-1 min-w-20 active:border-primary-2 active:shadow-md hover:bg-primary-2 active:shadow-primary-1;
+    @apply transition-all border rounded cursor-pointer text-white-1 bg-primary-1 min-w-20 active:border-primary-2 active:drop-shadow-md hover:bg-primary-2 active:shadow-primary-1;
   }
 
   .secondary-btn {
