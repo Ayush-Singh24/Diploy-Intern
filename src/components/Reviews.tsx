@@ -45,7 +45,7 @@ const reviews: Review[] = [
     name: "April Showers",
     storeLink: "Store Link",
     rating: 4,
-    profileImg: "/images/april-showers.png",
+    profileImg: "/images/april-showers.jpeg",
     description:
       "I really appreciate working with Printify on my brand. Afro Unicorn was only supposed to be my design on a white shirt. It is so much more. Printify allows me the time to run the business and not work in the business. ",
   },
@@ -66,7 +66,11 @@ export default function Reviews() {
           </p>
         </div>
         <div>
-          <InfiniteMovingCards items={reviews} speed="normal" />
+          <InfiniteMovingCards
+            items={reviews}
+            speed="normal"
+            direction="right"
+          />
         </div>
       </section>
     </main>
