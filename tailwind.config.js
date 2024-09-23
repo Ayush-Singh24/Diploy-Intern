@@ -38,6 +38,7 @@ export default {
         primary: {
           1: "rgb(251, 146, 50)",
           2: "rgb(251, 110, 0)",
+          3: "rgb(254,197, 146)",
         },
         grayBG: "#f7f7f7",
       },

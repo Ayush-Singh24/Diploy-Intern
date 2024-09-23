@@ -2,6 +2,7 @@ import Benefits from "./components/Benefits";
 import Features from "./components/Features";
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
+import Stores from "./components/Stores";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Intro />
         <Benefits />
         <Features />
+        <Stores />
       </main>
     </>
   );

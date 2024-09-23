@@ -19,7 +19,7 @@ const tshirtTextAnimation: Variants = {
 
 export default function Intro() {
   return (
-    <section className="bg-[url('../public/background-1.svg')] bg-right-bottom flex flex-col mx-auto max-w-[1216px] py-14 px-6 gap-4 bg-no-repeat sm:flex-row sm:justify-around sm:items-center sm:h-[calc(100vh-5rem)] max-h-[768px]">
+    <section className="bg-[url('/background-1.svg')] bg-right-bottom flex flex-col mx-auto max-w-[1216px] py-14 px-6 gap-4 bg-no-repeat sm:flex-row sm:justify-around sm:items-center sm:h-[calc(100vh-5rem)] max-h-[768px]">
       <div className="flex flex-col gap-6 w-80 lg:w-[50%]">
         <h1 className="text-3xl lg:text-5xl font-semibold pr-[27%]">
           Create and sell custom products
