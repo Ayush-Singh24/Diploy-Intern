@@ -2,6 +2,7 @@ import Benefits from "./components/Benefits";
 import Features from "./components/Features";
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
+import Reviews from "./components/Reviews";
 import Stores from "./components/Stores";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Benefits />
         <Features />
         <Stores />
+        <Reviews />
       </main>
     </>
   );
