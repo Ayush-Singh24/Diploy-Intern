@@ -1,6 +1,7 @@
 import Benefits from "./components/Benefits";
 import Features from "./components/Features";
 import Financial from "./components/Financials";
+import Footer from "./components/Footer";
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
 import Reviews from "./components/Reviews";
@@ -23,6 +24,8 @@ function App() {
         <Reviews />
         {/*Financials section*/}
         <Financial />
+        {/*Footer*/}
+        <Footer />
       </main>
     </>
   );

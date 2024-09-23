@@ -14,10 +14,12 @@ export default function Navbar() {
               className="transition-colors cursor-pointer text-primary-1 md:hidden hover:text-black-2"
               onClick={() => setIsMenuOpen(true)}
             />
-            <img src="/logo.svg" className="hidden h-10 sm:block" />
+            <a href="/">
+              <img src="/logo.svg" className="hidden h-10 sm:block" />
+            </a>
             <img
               src="/logo-small.svg"
-              className="w-10 h-10 ml-auto sm:hidden"
+              className="w-10 h-10 ml-auto cursor-pointer sm:hidden"
             />
           </div>
           <nav className="hidden h-full lg:flex lg:items-center *:h-full">
